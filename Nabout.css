@@ -1,0 +1,34 @@
+.TahaInto{
+    display: none;
+}
+.knowmore:hover{
+    color: blue;
+}
+.knowmore1:hover{
+    color: blue; 
+}
+.knowmore1{
+    background:#765a5a;
+    color: white;
+}
+.knowmore{
+
+background:#2b7397;
+    color: white;
+}
+
+
+.Nityamam{
+box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.11);
+}
+.Zaidisir{
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.11);  
+}
+.Nityamam:hover{
+
+    box-shadow: 0 0 10px 10px #fffcee;
+}
+.Zaidisir:hover{
+
+    box-shadow: 0 0 10px 10px #15d0f509;
+}

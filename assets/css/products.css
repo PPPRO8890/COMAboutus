@@ -1,0 +1,135 @@
+.product_previewBg {
+    background-color: #EDFFFF;
+}
+
+.product_previewSec {
+    padding: 20px;
+    position: sticky;
+    top: 76px;
+}
+
+.product_carousel_dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    height: 106px;
+    padding: 10px 0px;
+}
+
+.product_carousel_dots li {
+    height: 40px;
+    width: 40px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    -webkit-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 6px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    background: white;
+}
+
+.product_carousel_dots li.active {
+    width: 60px;
+    height: 60px;
+}
+
+.product_carousel_dots img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.product_desc {
+    /* color:#6F8B99; */
+}
+
+.c_lightBlue {
+    color: #6F8B99;
+}
+
+.product_tags {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.product_variant {
+    padding: 10px;
+    width: 65px;
+}
+
+.product_variant picture{
+    border: 1px solid transparent;
+}
+.product_variant img {
+    padding: 5px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product_variant input:checked+picture{
+    border: 1px solid var(--c_primary);
+}
+
+.buy_tog {
+    padding: 5px;
+}
+
+.buy_tog .tog_img {
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    ;
+    margin-right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.buy_tog .tog_img picture {
+    width: 50%;
+}
+
+.buy_tog input:checked+.tog_img {
+    border: 1px solid var(--c_primary);
+}
+
+.border_right_pri {
+    border-bottom: 1px solid var(--c_primary);
+}
+
+@media(min-width:768px) {
+    .border_right_pri {
+        border-bottom: none;
+        border-right: 2px solid var(--c_primary);
+    }
+}
+
+@media(min-width:992px) {
+    .product_previewSec {
+        padding: 80px;
+    }
+    .product_carousel_dots li {
+        height: 53px;
+        width: 53px;
+        padding: 10px;
+    }
+    .product_carousel_dots li.active {
+        width: 86px;
+        height: 86px;
+    }
+}
